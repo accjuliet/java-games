@@ -9,6 +9,7 @@ import java.awt.event.*;
 public abstract class ListeningGameComponent extends GameComponent implements MouseListener, MouseMotionListener, KeyListener
 {
 	public boolean mousePressed1 = false, mousePressed2 = false, mousePressed3 = false;
+	@SuppressWarnings("unchecked")
 	public ArrayList<String> keysPressed = new ArrayList();
 	public boolean debug = false;
 
