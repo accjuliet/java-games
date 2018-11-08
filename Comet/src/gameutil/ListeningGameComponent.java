@@ -221,6 +221,7 @@ public abstract class ListeningGameComponent extends GameComponent implements Mo
 
 	public void resetKeys()
 	{
+		@SuppressWarnings("unchecked")
 		keysPressed = new ArrayList();
 	}
 }
